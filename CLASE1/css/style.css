@@ -1,4 +1,74 @@
-.main{
+.main {
+    width: 100%;
+    height: 800 px;
+    background-color: skyblue;
 
+}
+
+#navMain{
+    width: auto;
+    background-color: lightpink;
+    text-align: center;
+    padding: 25px 10px 10px 10px;
+
+}
+
+#navMain > a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#navMain > a:hover{
+    background-color: darkseagreen;
+}
+
+#mainContent{
+    width: auto;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    height: 69%;
+    margin: 50px;
+}
+
+
+#headerImg{
+    text-align: center;
+    font-size:25px;
+    font-weight: 600;
+}
+
+.imgXoalli{
+    width: 300px;
+    min-height: 300px;
+    margin: 5px;
+    border-radius: 100%;
+}
     
+.description{
+    text-align: left;
+    font-size: 16px;
+    display: inline-block;
+    width: 84%;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.descriptionTwo{
+    text-align: left;
+    font-size: 16px;
+    display: inline-block;
+    width: 84%;
+    font-family:'Times New Roman';
+    font-weight: bold;
+}
+
+footer{
+    width: auto;
+    text-align: center;
+    height: 10%;
+    background-color: oldlace;
+}
+footer > p{
+    padding: 30px;
+    font-size:20px;
 }
