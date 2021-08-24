@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.izquierdaSuperior, .izquierdaInferior, .derechaSuperior, .derechaInferior{
+
+    background-color: white;
+}
+
+.cuadroIzquierdo, .cuadroDerecho{
+
+    background-color: blue;
+    
+}
+
+
+
+.cuadroIzquierdo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.cuadroDerecho{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.izquierdaSuperior{
+    width: 80%;
+    height: 40%;
+    display: flex-end;
+}
+
+.izquierdaInferior{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.derechaSuperior{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    
+  
+}
+
+.derechaInferior{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+   
+}
+
+.rojoIzquierda{
+    background-color: red;
+    width: 80%;
+    height: 80%;
+}
+
+.rojoDerecha{
+    background-color: red;
+    width: 93%;
+    height: 80%;
+}
