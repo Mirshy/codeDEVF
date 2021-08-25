@@ -20,7 +20,7 @@ body{
 
 
 .cuadroIzquierdo{
-    width: 25%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -28,15 +28,6 @@ body{
 
 }
 
-.cuadroDerecho{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column ;
-    justify-content: space-between;
-    align-items: flex-end;
-
-}
 .izquierdaSuperior{
     width: 80%;
     height: 40%;
@@ -48,6 +39,18 @@ body{
     height: 40%;
     display: flex;
     align-items: flex-end;
+}
+
+
+
+.cuadroDerecho{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }
 
 .derechaSuperior{
@@ -76,6 +79,6 @@ body{
 
 .rojoDerecha{
     background-color: red;
-    width: 93%;
+    width: 90%;
     height: 80%;
 }

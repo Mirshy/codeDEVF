@@ -1,0 +1,59 @@
+body{
+    width: 50%;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+
+.hijouno{
+
+    display: grid;
+    grid-template-columns: 1fr  ;
+    gap: 10x;
+   
+}
+
+.hijodos{
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 10px;
+   
+}
+
+.hijotres{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 10px;
+   
+}
+
+
+
+.uno{
+    background: purple;
+}
+
+.dos{
+    background: red;
+}
+.tres{
+    background: blue;
+    
+}
+.cuatro{
+    background: green;
+    display: grid;
+
+    
+}
+.cinco{
+    background: yellow;
+}
+.seis{
+    background: yellowgreen;
+}
